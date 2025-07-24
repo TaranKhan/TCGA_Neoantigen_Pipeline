@@ -28,12 +28,12 @@ By working with TCGA mutation data and Ensembl protein sequences, this pipeline 
 ---
 
 ## 📋 Sample Output
-Gene    Mutation  Neoepitope
-CACNA1S p.L363F   LDEDFRGYM
-LMOD1   p.T55M    QRNQMEKQS
-RPL32   p.R44S    GIDNSVRRR
-CC2D2A  p.T1114M  TVCHMTTAE
-LNX1    p.E176K   LMTDKPGLD
+- Gene    Mutation  Neoepitope
+- CACNA1S p.L363F   LDEDFRGYM
+- LMOD1   p.T55M    QRNQMEKQS
+- RPL32   p.R44S    GIDNSVRRR
+- CC2D2A  p.T1114M  TVCHMTTAE
+- LNX1    p.E176K   LMTDKPGLD
 
 Each row represents a potential cancer-specific peptide that might be recognized by the immune system.
 
