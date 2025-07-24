@@ -45,29 +45,26 @@ Each row represents a potential cancer-specific peptide that might be recognized
 2. Install required packages:
    ```bash
    pip install -r requirements.txt
-3.Open SCRIPT.ipynb in Jupyter Notebook.
-4.Run all cells to generate the neoepitopes.csv file.
+3. Open SCRIPT.ipynb in Jupyter Notebook.
+4. Run all cells to generate the neoepitopes.csv file.
 
 ---
 
-##⚠️ Notes
--Only 4 MAF files were downloaded (even though 5 case IDs were queried) because not all TCGA cases have open-access mutation files.
-
--Some MAF files may include mutations from multiple tumor samples, which is why the final output may list more samples than MAFs.
-
+## ⚠️ Notes
+- Only 4 MAF files were downloaded (even though 5 case IDs were queried) because not all TCGA cases have open-access mutation files.
+- Some MAF files may include mutations from multiple tumor samples, which is why the final output may list more samples than MAFs.
 ---
 
-##🔭 Future Plans
--Integrate HLA typing from metadata
--Add MHC binding prediction tools like NetMHCpan or MHCflurry
--Rank peptides by expression or binding affinity
--Add visualization or web UI
-
+## 🔭 Future Plans
+- Integrate HLA typing from metadata
+- Add MHC binding prediction tools like NetMHCpan or MHCflurry
+- Rank peptides by expression or binding affinity
+- Add visualization or web UI
 ---
 
-##📚 References
--TCGA via GDC Portal
--Ensembl REST API
--NIH: Cancer Vaccine Fact Sheet
+## 📚 References
+- TCGA via GDC Portal
+- Ensembl REST API
+- NIH: Cancer Vaccine Fact Sheet
 
 Created with 💻 by @TaranKhan
